@@ -35,7 +35,8 @@ Custom threshold (0.4) was used instead of default 0.5 to improve recall.
 
 ## 📸 App Preview
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c8dbdf9-892d-47dd-8f9e-bf9fedc71918" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/16ce0526-aa5a-4a90-b94f-cf5405d7bc8e" />
+
 
 
 
