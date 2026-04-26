@@ -33,6 +33,11 @@ Reducing false negatives is more important than overall accuracy because missing
 
 Custom threshold (0.4) was used instead of default 0.5 to improve recall.
 
+## 📸 App Preview
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/45ec4c04-8227-412c-9242-ac1090915fc7" />
+
+
 ## 🖥️ How to Run
 
 ```bash
