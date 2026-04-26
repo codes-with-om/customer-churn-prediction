@@ -19,6 +19,20 @@ This project predicts whether a customer is likely to churn using Machine Learni
 - Scikit-learn
 - Streamlit
 
+## 📊 Model Performance
+
+- Accuracy: ~75%
+- Recall (Churn): ~0.90 (after threshold tuning)
+- Business Focus: Minimize customer loss (False Negatives)
+
+## ⚖️ Key Insight
+
+Reducing false negatives is more important than overall accuracy because missing a churn customer leads to direct business loss.
+
+## 🔍 Threshold Tuning
+
+Custom threshold (0.4) was used instead of default 0.5 to improve recall.
+
 ## 🖥️ How to Run
 
 ```bash
