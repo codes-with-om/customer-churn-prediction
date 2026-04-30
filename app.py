@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import joblib
 
-# load model
 model = joblib.load('churn_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
@@ -11,7 +10,6 @@ st.set_page_config(page_title="Churn Predictor", page_icon="📊")
 st.title("📊 Customer Churn Prediction")
 st.markdown("### Enter customer details below:")
 
-# layout (2 columns)
 col1, col2 = st.columns(2)
 
 with col1:
@@ -22,7 +20,6 @@ with col2:
     monthly_charges = st.number_input("Monthly Charges")
     internet = st.selectbox("Internet Service", ["DSL", "Fiber optic", "No"])
 
-# encoding
 contract_one_year = 1 if contract == "One year" else 0
 contract_two_year = 1 if contract == "Two year" else 0
 
